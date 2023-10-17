@@ -1,0 +1,22 @@
+uuid: fd8cb378-5153-4067-ae00-81b56a1a0d9e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gasolicious
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: gasolicious_secondary_local_tasks
+theme: gasolicious
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

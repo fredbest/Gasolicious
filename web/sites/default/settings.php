@@ -869,7 +869,7 @@ $databases['default']['default'] = [
     'prefix' => '',
 ];
 
-$settings['config_sync_directory'] = '/mnt/files/config/sync_dir';
+$settings['config_sync_directory'] = '/var/www/html/config/export';
 $settings['hash_salt'] = 'GYhEAlGV6U3cseEi';
 
 $settings['trusted_host_patterns'] = array(

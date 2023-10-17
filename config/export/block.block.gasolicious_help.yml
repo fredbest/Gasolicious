@@ -1,0 +1,22 @@
+uuid: bb0f9021-e7c9-40bc-ac04-c7f5a4ea4975
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gasolicious
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: gasolicious_help
+theme: gasolicious
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

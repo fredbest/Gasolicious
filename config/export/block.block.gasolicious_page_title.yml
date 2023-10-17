@@ -1,0 +1,20 @@
+uuid: 99ab0808-415b-4ae8-b271-5498e98ba7b9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gasolicious
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: gasolicious_page_title
+theme: gasolicious
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

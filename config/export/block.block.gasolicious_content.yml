@@ -1,0 +1,22 @@
+uuid: fc29197a-3f66-494a-8856-e6c34a21b013
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gasolicious
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: gasolicious_content
+theme: gasolicious
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
