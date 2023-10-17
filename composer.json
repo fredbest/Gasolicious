@@ -28,6 +28,7 @@
         "drupal/twig_debugger": "^1.1",
         "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^3.2",
+        "drupal/views_slideshow": "^5.0",
         "drush/drush": "^12.2"
     },
     "conflict": {
